@@ -16,27 +16,24 @@
   <script src="assets/js/jquery-3.4.1.js"></script>
   <script src="assets/js/bootstrap.js"></script>
   <title>The East Africa Conference on Occupational Safety and Health - EACOSH </title>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-150271756-1"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-156849121-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-    function gtag() {
-      dataLayer.push(arguments);
-    }
-    gtag('js', new Date());
-
-    gtag('config', 'UA-150271756-1');
-  </script>
+  gtag('config', 'UA-156849121-1');
+</script>
 
 </head>
 
 <body>
-  <!-- <div style="background:url('./assets/images/cutouttop.png');background-size:100% 80%;background-repeat:no-repeat;height:100px;"/>
+  <!-- <div style="background:url('./assets/images/eacosh_cutout.png');background-size:100% 80%;background-repeat:no-repeat;height:100px;"/> -->
 <div class="container-fluid">
-    <img src="./assets/images/cutouttop.png" width="100%" />
+    <img src="./assets/images/eacosh_cutout.png" width="100%" />
    </div> 
-</div>-->
+</div>
   <div class="shadow-lg"
     style="background-image:linear-gradient(to right,#00000070,#00000070), url(./assets/images/osh.webp);background-size: 100% 100%;padding: 0;background-repeat: no-repeat;">
     <nav class="shadow-sm navbar sticky-top navbar-expand-md navbar-dark"
@@ -81,7 +78,8 @@
             <span>
             <hr color="white" width="100%">
           <p class="lead text-center font-bold text-white" style="font-family: 'Roboto', sans-serif;font-weight: 400;">
-            26<sup>th</sup> - 27<sup>th</sup> March 2020 <br> 
+            Thursay 26<sup>th</sup> March 2020-Conference <br>
+            Friday 27<sup>th</sup> March 2020-Excursion <br> 
             NAIVASHA, KENYA
           </p>
           <hr color="white">
@@ -349,115 +347,6 @@
   <input type="hidden" id="ispaid" value="NO">
 </body>
 <!-- <script src="./assets/js/socket.io.js"></script> -->
-<script>
-  function limit(element) {
-    var max_chars = 10;
-
-    if (element.value.length > max_chars) {
-      element.value = element.value.substr(0, max_chars);
-    }
-  }
-
-  $(function () {
-
-    $('#country').change(function () {
-      var selected = $(this).find('option:selected');
-      var extra = selected.data('code');
-      $('#code').html(extra)
-    });
-
-    $('#phone_no').change(function () {
-      if ($('#phone_no').val().charAt(0) === '0') {
-        $('#phone_no_val').val($('#code').html() + "" + $('#phone_no').val().substr(1))
-      } else {
-        $('#phone_no_val').val($('#code').html() + "" + $('#phone_no').val())
-      }
-    })
-  });
-
-  function checkScroll() {
-    var startY = $('.navbar').height(); //The point where the navbar changes in px
-
-    if ($(window).scrollTop() > startY) {
-      $('.navbar').addClass("scrolled");
-    } else {
-      $('.navbar').removeClass("scrolled");
-    }
-  }
-
-  $(window).scroll(function () {
-    checkScroll();
-  });
-
-  function next(event) {
-    var current = document.getElementById('step').value
-    document.getElementById(current).style.display = 'none'
-
-    var nextpart = parseInt(current) + 1
-    if (current === "2") {
-      if ($('#role').val() === "Kenyan Delegate") {
-        document.getElementById("3").style.display = 'block'
-        document.getElementById('nextbtn').style.display = 'none'
-        document.getElementById('submitbtn').style.display = 'block'
-      } else {
-        document.getElementById('nextbtn').style.display = 'none'
-        document.getElementById('submitbtn').style.display = 'block'
-        document.getElementById("4").style.display = 'block'
-        document.getElementById('step').value = 3 + ''
-      }
-    } else {
-      document.getElementById(nextpart + '').style.display = 'block'
-      document.getElementById('prevbtn').style.display = 'block'
-      document.getElementById('step').value = nextpart + ''
-    }
-
-  }
-
-  function prev(event) {
-
-    var current = document.getElementById('step').value
-    if (current) {
-
-    }
-    document.getElementById(current).style.display = 'none'
-
-    document.getElementById(parseInt(current) - 1 + '').style.display = 'block'
-    document.getElementById('step').value = parseInt(current) - 1 + ''
-    if (parseInt(current) - 1 === 1) {
-      document.getElementById('nextbtn').style.display = 'block'
-      document.getElementById('prevbtn').style.display = 'none'
-      document.getElementById('submitbtn').style.display = 'none'
-    }
-
-
-  }
-
-
-  // const socket = io("https://eawaterspayments.herokuapp.com/");
-  // socket.on("payment", function (msg) {
-  //   if (msg.BillRefNumber === $('#first_name').val() + " " + $('#last_name').val() ||
-  //     msg.MSISDN === $('#phone_no_val').val()) {
-
-  //     $('#ispaid').val('YES')
-
-  //     $('#paymentstatus').html("<div class='alert alert-success' role='alert'>Thank You Payment Received for " +
-  //       msg.BillRefNumber + "</div>")
-  //     $('#mpesa_code').val(msg.TransID)
-  //     $('#mpesa_name').val(msg.BillRefNumber)
-  //     $('#mpesa_amount').val(msg.TransAmount)
-  //     enableFinishPayment()
-  //   }
-
-
-  // })
-
-
-
-  function nameChanged() {
-    var fullname = $('#first_name').val() + " " + $('#last_name').val()
-    $('#fullname').html(fullname)
-
-  }
 </script>
 
 </html>

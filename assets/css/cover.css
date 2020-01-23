@@ -86,12 +86,7 @@ body {
 }
 
 
-/*
- * Cover
- */
-.cover {
-  padding: 0 1.5rem;
-}
+
 .cover .btn-lg {
   padding: .75rem 1.25rem;
   font-weight: 700;
@@ -105,34 +100,15 @@ body {
   color: rgba(255, 255, 255, .5);
 }
 
-
-#reg_form{
-  width: 400px;
-  margin: 50px auto;
-  text-align: center;
-  position: relative;
-}
-
-#reg_form fieldset{
-  background: white;
-  border: 0 none;
-  border-radius: 3px;
-  box-shadow: 0 0 15px 1px rgba(0, 0, 0, .4);
-  padding: 20px 30px;
-  box-sizing: border-box;
-  width: 80%;
-  margin: 0 10%;
-  position: relative;
-}
-
-#reg_form fieldset:not(:first-of-type){
-  display: none;
+input{
+  margin: 10px auto;
 }
 
 #progressbar{
   margin-bottom: 30px;
   overflow: hidden;
   counter-reset: step;
+  display: none;
 }
 
 #progressbar li {

@@ -7,31 +7,31 @@
 
         <div class="justify-content-center align-items-center d-flex flex-wrap">
             <div class="endorser shadow">
-                <img src="./assets/images/logos/logo26.png" class="justify-content-center" width="150px" height="150px"
-                    alt="">
+                <!-- <img src="./assets/images/logos/logo26.png" class="justify-content-center" width="150px" height="150px"
+                    alt=""> -->
             </div>
             <div class="endorser shadow">
-                <img src="./assets/images/logos/logo2.jpg" class="justify-content-center" width="140px" height="150px"
-                    alt="">
+                <!-- <img src="./assets/images/logos/logo2.jpg" class="justify-content-center" width="140px" height="150px"
+                    alt=""> -->
             </div>
-            <!-- <div class="endorser  shadow">
-                <img src="./assets/images/logos/logo31.png" class="justify-content-center" width="150px" height="150px"
-                    alt="">
-            </div> -->
             <div class="endorser  shadow">
-                <img src="./assets/images/logos/logo22.jpg" class="justify-content-center" width="150px" height="150px"
-                    alt="">
+                <!-- <img src="./assets/images/logos/logo31.png" class="justify-content-center" width="150px" height="150px"
+                    alt=""> -->
+            </div>
+            <div class="endorser  shadow">
+                <!-- <img src="./assets/images/logos/logo22.jpg" class="justify-content-center" width="150px" height="150px"
+                    alt=""> -->
             </div>
 
             <div class="endorser shadow">
-                <img src="./assets/images/logos/logo14.png" class="justify-content-center" width="150px" height="150px"
-                    alt="">
+                <!-- <img src="./assets/images/logos/logo14.png" class="justify-content-center" width="150px" height="150px"
+                    alt=""> -->
             </div>
             <br>
             <br>
             <div class="endorser shadow">
-                <img src="./assets/images/logos/logo29.png" class="justify-content-center" width="400px" height="100px"
-                    alt="">
+                <!-- <img src="./assets/images/logos/logo29.png" class="justify-content-center" width="400px" height="100px"
+                    alt=""> -->
             </div>
 
         </div>
@@ -40,31 +40,31 @@
         <h5 class="text-center">Our Partners</h5>
         <div class="d-flex align-items-center justify-content-center flex-wrap ">
             <div class="partner card shadow-sm">
-                <img class="partner_logo" width="200px" height="80px;" src="./assets/images/logos/doshiwater.jpg"
-                    alt="">
+                <!-- <img class="partner_logo" width="200px" height="80px;" src="./assets/images/logos/doshiwater.jpg"
+                    alt=""> -->
             </div>
              <div class="partner card shadow-sm">
-                <img class="partner_logo" width="200px" height="80px;" src="./assets/images/logos/aas.png"
-                    alt="">
+                <!-- <img class="partner_logo" width="200px" height="80px;" src="./assets/images/logos/aas.png"
+                    alt=""> -->
             </div>
            <!-- <div class="partner card shadow-sm">
                 <img class="partner_logo" width="140px" height="80px;" src="./assets/images/logos/wilo_logo.png" alt="">
 
             </div> -->
             <div class="partner card shadow-sm">
-                <img class="partner_logo" width="200px" height="80px;" src="./assets/images/logos/logo_untapped.png"
-                    alt="">
+                <!-- <img class="partner_logo" width="200px" height="80px;" src="./assets/images/logos/logo_untapped.png"
+                    alt=""> -->
             </div>
             <div class="partner card shadow-sm">
-                <img class="partner_logo" width="200px" height="80px;" src="./assets/images/logos/dns.png" alt="">
+                <!-- <img class="partner_logo" width="200px" height="80px;" src="./assets/images/logos/dns.png" alt=""> -->
             </div>
             <div class="partner card shadow-sm">
-                <img class="partner_logo" width="200px" height="80px;"  src="./assets/images/logos/kaeser.png" alt="">
+                <!-- <img class="partner_logo" width="200px" height="80px;"  src="./assets/images/logos/kaeser.png" alt=""> -->
             </div>
             
             <div class="partner card shadow-sm">
-                <img class="partner_logo" width="200px" height="80px;" src="./assets/images/logos/watershed.jpg"
-                    alt="">
+                <!-- <img class="partner_logo" width="200px" height="80px;" src="./assets/images/logos/watershed.jpg"
+                    alt=""> -->
             </div>
 
         </div>
@@ -73,7 +73,7 @@
         <h5 class="text-center">Summit Organised by</h5>
             <div class="container justify-content-center d-flex"> 
                 <div class="partner card shadow-sm">
-                    <img width="200px" src="assets/images/logos/logo19.gif"
+                    <img width="100%" src="assets/images/eacosh_cutout.png"
                         alt="">
                  </div>
         </div>
