@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap');
+
+html,
+body {
+    padding: 0;
+    margin: 0;
+    background-image: linear-gradient(#cacaca10, #dddddd40),
+        url('../images/bgwater.png'),
+        linear-gradient(#ffffff, #ffffff);
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.nav-item {
+    margin: 10px;
+}
+
+.active a {
+    border-bottom: 1px dotted #049b3e;
+}
+
+.primary_btn {
+    background-color: #fcca0a;
+    color: rgb(0, 0, 0) !important;
+    padding: 10px 15px !important;
+    text-decoration: none;
+}
+
+.secondary_btn {
+    color: #00b050;
+    border: 1px solid #00b050;
+    padding: 10px 15px !important;
+    text-decoration: none;
+    background-color: rgba(0, 0, 0, 0.623);
+}
+
+/* Add the below transitions to allow a smooth color change similar to lyft */
+.navbar {
+    -webkit-transition: all 1s ease-out;
+    -moz-transition: all 1s ease-out;
+    -o-transition: all 1s ease-out;
+    -ms-transition: all 1s ease-out;
+    transition: all 1s ease-out;
+}
+
+.navbar.scrolled {
+    background: #a1a1a1;
+    /* IE */
+    background: #dadada;
+    /* NON-IE */
+}
+
+.stat {
+    margin: 10px;
+    border: .4px dotted #a1a1a1;
+    padding: 10px;
+}
+
+.statmain {
+    color: #fcca0a;
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+.stattext {
+    font-size: .6rem;
+    color: darkgray;
+}
+
+.speaker {
+    margin: 10px;
+    padding: 10px;
+    width: 30%;
+}
+
+.s_name {
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: center;
+    color: darkgray;
+}
+
+.s_title {
+    font-style: italic;
+    font-size: 0.8rem;
+    color: darkgray;
+    text-align: center;
+    overflow-wrap: break-word;
+}
+
+.s_theme {
+    font-style: italic;
+    font-size: .8rem;
+    color: #00b050;
+    text-align: center;
+
+}
+
+.partner,
+.endorser {
+    margin: 10px;
+    padding: 10px;
+}
+
+.timer {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+}
+
+#demo {
+    width: 100%;
+    display: flex;
+}
+
+.day,
+.hours,
+.minutes,
+.seconds {
+    padding: 5px;
+    background-color: #5e5d5df0;
+    color: #e6e6e6;
+    border: .5px solid gray;
+    font-size: 1.2rem;
+}
+
+.the-blur {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    min-height: 50px;
+    margin-bottom: 100px;
+    z-index: 1010;
+    -webkit-filter: blur(20px);
+    -moz-filter: blur(20px);
+    -o-filter: blur(20px);
+    -ms-filter: blur(20px);
+    filter: blur(20px);
+}
+
+.navbar {
+    background: #97979750;
+}

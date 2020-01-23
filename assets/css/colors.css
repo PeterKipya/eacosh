@@ -1,0 +1,154 @@
+/* Color Theme Swatches in Hex */
+.eawaters-col-1-hex {
+  color: #0455bf;
+}
+
+.eawaters-col-2-hex {
+  color: #034aa6;
+}
+
+.eawaters-col-3-hex {
+  color: #035aa6;
+}
+
+.eawaters-col-4-hex {
+  color: #023e73;
+}
+
+.eawaters-col-5-hex {
+  color: #d9d9d9;
+}
+
+/* Color Theme Swatches in RGBA */
+.eawaters-col-1-rgba {
+  color: rgba(3, 85, 191, 1);
+}
+
+.eawaters-col-2-rgba {
+  color: rgba(3, 73, 165, 1);
+}
+
+.eawaters-col-3-rgba {
+  color: rgba(3, 89, 165, 1);
+}
+
+.eawaters-col-4-rgba {
+  color: rgba(2, 62, 114, 1);
+}
+
+.eawaters-col-5-rgba {
+  color: rgba(216, 216, 216, 1);
+}
+
+/* Color Theme Swatches in HSLA */
+.eawaters-col-1-hsla {
+  color: hsla(213, 96, 38, 1);
+}
+
+.eawaters-col-2-hsla {
+  color: hsla(213, 96, 33, 1);
+}
+
+.eawaters-col-3-hsla {
+  color: hsla(208, 96, 33, 1);
+}
+
+.eawaters-col-4-hsla {
+  color: hsla(208, 96, 22, 1);
+}
+
+.eawaters-col-5-hsla {
+  color: hsla(0, 0, 85, 1);
+}
+
+/* Color Theme Swatches in Hex */
+.eawaters-bg-col-1-hex {
+  background-color: #0455bf;
+}
+
+.eawaters-bg-col-2-hex {
+  background-color: #034aa6;
+}
+
+.eawaters-bg-col-3-hex {
+  background-color: #035aa6;
+}
+
+.eawaters-bg-col-4-hex {
+  background-color: #023e73;
+}
+
+.eawaters-bg-col-5-hex {
+  background-color: #d9d9d9;
+}
+
+/* Color Theme Swatches in RGBA */
+.eawaters-bg-col-1-rgba {
+  background-color: rgba(3, 85, 191, 1);
+}
+
+.eawaters-bg-col-2-rgba {
+  background-color: rgba(3, 73, 165, 1);
+}
+
+.eawaters-bg-col-3-rgba {
+  background-color: rgba(3, 89, 165, 1);
+}
+
+.eawaters-bg-col-4-rgba {
+  background-color: rgba(2, 62, 114, 1);
+}
+
+.eawaters-bg-col-5-rgba {
+  background-color: rgba(216, 216, 216, 1);
+}
+
+/* Color Theme Swatches in HSLA */
+.eawaters-bg-col-1-hsla {
+  background-color: hsla(213, 96, 38, 1);
+}
+
+.eawaters-bg-col-2-hsla {
+  background-color: hsla(213, 96, 33, 1);
+}
+
+.eawaters-bg-col-3-hsla {
+  background-color: hsla(208, 96, 33, 1);
+}
+
+.eawaters-bg-col-4-hsla {
+  background-color: hsla(208, 96, 22, 1);
+}
+
+.eawaters-bg-col-5-hsla {
+  background-color: hsla(0, 0, 85, 1);
+}
+
+
+
+.flex-container {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.row {
+  width: auto;
+}
+
+.primary {
+  color: #00b0f0;
+
+}
+
+.secondary {
+  color: #00b050;
+
+}
